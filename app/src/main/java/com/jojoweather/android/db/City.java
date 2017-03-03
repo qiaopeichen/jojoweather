@@ -20,7 +20,7 @@ public class City extends DataSupport {
         return id;
     }
 
-    public void setId() {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -28,7 +28,7 @@ public class City extends DataSupport {
         return cityName;
     }
 
-    public void setCityName() {
+    public void setCityName(String cityName) {
         this.cityName = cityName;
     }
 
@@ -36,7 +36,7 @@ public class City extends DataSupport {
         return cityCode;
     }
 
-    public void setCityCode() {
+    public void setCityCode(int cityCode) {
         this.cityCode = cityCode;
     }
 
@@ -44,7 +44,7 @@ public class City extends DataSupport {
         return provinceId;
     }
 
-    public void setProvinceId() {
+    public void setProvinceId(int provinceId) {
         this.provinceId = provinceId;
     }
 }
